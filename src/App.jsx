@@ -2,9 +2,7 @@ import { useState } from 'react'
 import Home from './Home';
 import './App.css'
 import Nav from './component/Nav';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 
 import {

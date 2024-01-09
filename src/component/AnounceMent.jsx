@@ -3,7 +3,7 @@ import './announce.css'
 const AnounceMent = () => {
   return (
     <>
-    <div className="announceMennt">
+    <div className="announceMennt" id='announcement'>
         <div className="title">
 <h1>Annoouncement</h1>
         </div>

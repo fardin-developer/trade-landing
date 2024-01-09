@@ -18,7 +18,7 @@ const Home = () => {
     <div style={{marginTop:"1px"}}>
       <SimpleImageSlider
         width="100vw" // Set the width to 100vw
-        height="30vw"
+        height="50vw"
         images={images}
         showBullets={true}
         showNavs={true}

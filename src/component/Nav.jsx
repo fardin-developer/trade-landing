@@ -8,11 +8,13 @@ const Nav = () => {
     <div className="nav">
         <div className="innerNav">
         <li>Home</li>
+        <li><a href="#announcement">Announcement</a></li>
+        <li>Courses</li>
+        <li>Student Experience</li>
+        <li>Gallery</li>
         <li>About</li>
         <li>Privacy Policy</li>
         <li>Contac Us</li>
-        <li>Home</li>
-        <li>Home</li>
         </div>
         
     </div>

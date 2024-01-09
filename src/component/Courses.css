@@ -1,0 +1,64 @@
+/* Courses.css */
+
+.courses-container {
+  margin-top: 3rem;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.courses {
+  padding: 20px;
+}
+
+.courses h2 {
+  margin-bottom: 20px;
+}
+
+.courses-row {
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.course {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.card {
+  width: 25rem;
+  margin-bottom: 20px;
+  border: 1px solid #ddd; /* Add a border for a clean look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Add a slight lift effect on hover */
+}
+
+.card img {
+  height: 15rem;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd; /* Add a border between image and text */
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #555;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.card-price {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #007bff; /* Use a contrasting color for the price */
+}

@@ -1,6 +1,7 @@
 // Courses.js
 
 import React from 'react';
+import "./Courses.css"
 
 const coursesData = [
   {
@@ -20,6 +21,20 @@ const coursesData = [
   {
     id: 3,
     title: 'Course 3',
+    price: '$29.99',
+    description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
+    thumbnail: 'https://picsum.photos/200', // Add the thumbnail URL here
+  },
+  {
+    id: 4,
+    title: 'Course 4',
+    price: '$29.99',
+    description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
+    thumbnail: 'https://picsum.photos/200', // Add the thumbnail URL here
+  },
+  {
+    id: 4,
+    title: 'Course 4',
     price: '$29.99',
     description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
     thumbnail: 'https://picsum.photos/200', // Add the thumbnail URL here
