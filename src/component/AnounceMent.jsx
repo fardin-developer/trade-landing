@@ -11,7 +11,7 @@ const AnounceMent = () => {
 
                     <div className="box">
                         <div className="boxContent">
-                            <a href="">  <img src="../public/tele.png" alt="" />
+                            <a href="">  <img src=".././public/tele.png" alt="" />
                             </a>
                             <button>Join Now</button>
                         </div>
