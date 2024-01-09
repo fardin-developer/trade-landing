@@ -3,6 +3,7 @@ import SimpleImageSlider from 'react-simple-image-slider';
 import AnounceMent from './component/AnounceMent';
 import Cources from './component/Cources'
 import Footer from './component/Footer';
+import ImageSlider from 'react-simple-image-slider';
 
 const images = [
   { url: 'https://picsum.photos/200/200' },
@@ -14,6 +15,8 @@ const images = [
 const Home = () => {
   return (
     <>
+
+    
   
     <div style={{marginTop:"1px"}}>
       <SimpleImageSlider

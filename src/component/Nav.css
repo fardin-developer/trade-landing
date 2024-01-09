@@ -20,3 +20,26 @@ li {
     cursor: pointer;
     /* margin-left: 10px; */
 }
+
+@media screen and (max-width:600px) {
+    .innerNav{
+        width: 80%;;
+    }
+    .innerNav2{
+        display: none;
+    }
+    
+}
+@media screen and (min-width:600px) {
+    .innerNav2{
+        width: 88%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    
+    }
+    .innerNav{
+        display: none;
+    }
+    
+}

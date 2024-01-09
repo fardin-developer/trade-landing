@@ -6,43 +6,43 @@ import "./Courses.css"
 const coursesData = [
   {
     id: 1,
-    title: 'Course 1',
-    price: '$19.99',
+    title: 'Pdf 1',
+    price: 'free',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     thumbnail: 'https://picsum.photos/200', // Add the thumbnail URL here
   },
   {
     id: 2,
-    title: 'Course 2',
-    price: '$29.99',
+    title: 'Pdf 2',
+    price: 'free',
     description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
     thumbnail: 'https://picsum.photos/200', // Add the thumbnail URL here
   },
   {
     id: 3,
-    title: 'Course 3',
-    price: '$29.99',
+    title: 'Pdf 3',
+    price: '$99',
     description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
     thumbnail: 'https://picsum.photos/200', // Add the thumbnail URL here
   },
   {
     id: 4,
-    title: 'Course 4',
-    price: '$29.99',
+    title: 'Pdf 4',
+    price: '$99',
     description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
     thumbnail: 'https://picsum.photos/200', // Add the thumbnail URL here
   },
   {
     id: 4,
-    title: 'Course 4',
-    price: '$29.99',
+    title: 'Pdf 5',
+    price: '$99',
     description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
     thumbnail: 'https://picsum.photos/200', // Add the thumbnail URL here
   },
   {
     id: 4,
-    title: 'Course 4',
-    price: '$29.99',
+    title: 'Pdf 6',
+    price: '$99',
     description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
     thumbnail: 'https://picsum.photos/200', // Add the thumbnail URL here
   },
