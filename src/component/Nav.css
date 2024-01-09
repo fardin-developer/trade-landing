@@ -1,0 +1,22 @@
+.nav {
+
+    width: 100vw;
+    font-size: larger;
+    background-color: #EC1F25;
+    padding: 25px 0px;
+    color: white;
+}
+
+.innerNav {
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+    /* margin-left: 10px; */
+}

@@ -1,0 +1,17 @@
+/* Courses.css */
+
+.courses-container {
+    margin-top: 3rem;
+    overflow-x: auto;
+  }
+  
+  .courses-row {
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .course-col {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
