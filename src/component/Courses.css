@@ -1,5 +1,7 @@
-/* Courses.css */
-
+h1{
+  color: #EC1F25;
+  margin-bottom: 20px;
+}
 .courses-container {
   margin-top: 3rem;
   overflow-x: auto;

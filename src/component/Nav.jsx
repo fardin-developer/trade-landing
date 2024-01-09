@@ -9,7 +9,7 @@ const Nav = () => {
         <div className="innerNav">
         <li>Home</li>
         <li><a href="#announcement">Announcement</a></li>
-        <li>Courses</li>
+        <li><a href="#courses">Courses</a></li>
         <li>Student Experience</li>
         <li>Gallery</li>
         <li>About</li>

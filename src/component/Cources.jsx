@@ -51,9 +51,9 @@ const coursesData = [
 
 const Courses = () => {
     return (
-      <div className="courses-container" style={{ marginTop: '3rem', overflowX: 'auto', whiteSpace: 'nowrap' }}>
+      <div id='courses' className="courses-container" style={{ marginTop: '3rem', overflowX: 'auto', whiteSpace: 'nowrap' }}>
         <div className="courses">
-          <h2>Available Courses</h2>
+          <h1>Available Courses</h1>
           <div className="courses-row">
             {coursesData.map((course) => (
               <div key={course.id} className="course" style={{ display: 'inline-block', marginRight: '10px' }}>
