@@ -78,11 +78,13 @@ h1{
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: 70vh;
+        height: 50vh;
         position: relative;
         border: 2px solid white;
       }
-      
+      .boxes img{
+        width: 50%;
+      }
       .boxes::before {
         content: '';
         position: absolute;
@@ -103,8 +105,8 @@ h1{
     
     }
     .box button{
-        width: 80px;
-        height: 30px;
+        width: 100px;
+        height: 35px;
         background-color: rgb(56, 206, 56);
         cursor: pointer;
         color: white;
@@ -112,5 +114,27 @@ h1{
         border: 1px solid white;
         margin-top: 5px;
     }
+    .box button{
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s ease-in-out;
+        animation: zoomIn 3s infinite;
+      }
+      
+      .zoom-in:hover {
+        background-color: #2980b9;
+      }
+      
+      @keyframes zoomIn {
+        0%, 100% {
+            transform: scale(1);
+          }
+          50% {
+            transform: scale(1.3);
+          }
+      }
     
 }
