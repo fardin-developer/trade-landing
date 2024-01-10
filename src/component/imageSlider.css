@@ -3,6 +3,12 @@
 .image-slider-container {
     margin-top: 1px;
   }
+@media only screen and (max-width:600px) {
+  .sideBar{
+    margin-top: 10rem;
+  }
+}
+ 
   
 
   
